@@ -1,0 +1,55 @@
+.containerInformation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.imgDetails {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  max-width: 300px;
+}
+
+.information {
+  max-width: 400px;
+}
+
+.tilte {
+  color: var(--darkBlue);
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.author {
+  color: #999;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+.description {
+  color: #555;
+  font-size: 0.9rem;
+  padding: 20px 0px;
+  text-align: justify;
+}
+
+.containerActions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.linkResource {
+  display: block;
+  background: #0089ff;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+}

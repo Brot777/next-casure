@@ -1,0 +1,17 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.tilteComments {
+  color: var(--darkBlue);
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin: 0;
+}

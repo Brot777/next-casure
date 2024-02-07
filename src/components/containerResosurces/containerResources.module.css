@@ -1,0 +1,28 @@
+.containerResources {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+.containerNoResuts {
+  width: 100%;
+  padding: 30px 0;
+  border-top: 2px solid #ced4da;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.iconNoResuts {
+  width: 100px;
+  height: 120px;
+}
+
+.textNoResuts {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: #555;
+}

@@ -1,0 +1,16 @@
+.mostPopular {
+  margin-top: 20px;
+  border-top: 2px solid #ced4da;
+  font-family: sans-serif;
+}
+
+.mostPopularTitle {
+  padding: 5px 0;
+  color: var(--darkBlue);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.mostPopularLinks {
+  display: flex;
+  flex-direction: column;
+}

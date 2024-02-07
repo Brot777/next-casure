@@ -1,0 +1,43 @@
+.site {
+  background: #f9fafb;
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.description {
+  display: block;
+  text-align: center;
+}
+
+.btnBackToHome {
+  border: none;
+  border: 2px solid var(--darkBlue);
+  font-size: 1rem;
+  padding: 1em;
+  border-radius: 5px;
+  color: var(--darkBlue);
+}
+.btnBackToHome:hover {
+  opacity: 0.8;
+}

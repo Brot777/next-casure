@@ -1,0 +1,100 @@
+.profile {
+  font-family: sans-serif;
+}
+
+.profileHead {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  background: var(--darkBlue);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.avatar {
+  background: #fefefe;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 40px;
+  min-width: 40px;
+  color: var(--darkBlue);
+  cursor: pointer;
+  user-select: none;
+}
+.avatar img {
+  width: 100%;
+}
+
+.personalInformation {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  font-size: 1rem;
+  color: #fefefe;
+  font-weight: bolder;
+}
+
+.name {
+  font-size: 0.7rem;
+  color: #999;
+  font-weight: 500;
+}
+
+.information {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.varible {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.varible a:hover {
+  opacity: 0.8;
+}
+
+.btnSingIn {
+  color: var(--darkBlue);
+  outline: 1px solid var(--darkBlue);
+  background: #fdfdfd;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+}
+
+.informationNoSesion {
+  font-size: 0.8rem;
+  color: #444;
+  font-weight: 500;
+  text-align: center;
+}
+
+.contributions {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #777;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.contributions img {
+  height: 15px;
+}

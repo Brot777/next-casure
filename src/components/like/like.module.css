@@ -1,0 +1,14 @@
+.like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #777;
+}
+
+.like img {
+  height: 15px;
+  cursor: pointer;
+}

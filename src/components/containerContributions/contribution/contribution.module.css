@@ -1,0 +1,70 @@
+.contribution {
+  border-bottom: 2px solid #ced4da;
+  background: #fff;
+  padding: 20px;
+}
+
+.tilte {
+  color: var(--darkBlue);
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.date {
+  color: #777;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+.description {
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.categorie {
+  margin-top: 20px;
+  color: var(--darkBlue);
+  font-size: 0.8rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.updateResource {
+  background: #fff;
+  color: #000;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border: none;
+  outline: 1px solid #000;
+}
+
+.deleteResource {
+  background: var(--darkBlue);
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border: none;
+}
+
+.updateResource:hover,
+.deleteResource:hover {
+  opacity: 0.7;
+}

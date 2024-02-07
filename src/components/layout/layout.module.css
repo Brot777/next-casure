@@ -1,0 +1,10 @@
+.mainLayout {
+  min-height: calc(100vh-70px);
+  margin-top: 70px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: minmax(200px, 2fr) 7fr;
+  gap: 30px;
+}

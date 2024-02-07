@@ -1,0 +1,79 @@
+.form {
+  border-top: 2px solid #ced4da;
+  margin-top: 5px;
+  font-family: sans-serif;
+}
+.title {
+  color: var(--darkBlue);
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.formMain {
+  margin-top: 20px;
+}
+
+.formControl {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.formControl label {
+  margin: 0 0 5px 0;
+  text-align: start;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #000;
+  width: 100%;
+  padding: 0px;
+}
+
+.formControl input,
+.formControl textarea,
+.formControl select {
+  font-size: 0.8rem;
+  font-family: sans-serif;
+  width: 100%;
+  background: #fff;
+  border: none;
+  outline: 1px solid #ced4da;
+  padding: 0.4em 0.8em;
+  color: #777;
+  resize: none;
+}
+
+.formControl input:focus {
+  outline: 2px solid #777;
+}
+
+.formControl textarea:focus {
+  outline: 2px solid #777;
+}
+
+.formControl textarea::placeholder {
+  font-family: sans-serif;
+}
+
+.formControl button {
+  font-size: 0.8rem;
+  width: 100%;
+  border: none;
+  padding: 0.7em 0.8em;
+  background: var(--darkBlue);
+  color: #f1f1f1;
+}
+
+.errorMessage {
+  margin: 0;
+  text-align: start;
+  font-size: 0.8rem;
+  color: #f00;
+  width: 100%;
+  padding: 5px;
+}

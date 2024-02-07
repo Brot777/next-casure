@@ -1,0 +1,62 @@
+.comment {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 4px #00000077;
+  background-color: #fff;
+}
+
+.user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.avatar {
+  background: var(--darkBlue);
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 35px;
+  min-width: 35px;
+  color: #fefefe;
+  user-select: none;
+}
+
+.userName {
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 10px;
+  color: #000;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.dateAgo {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.btnDelete {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  font-size: 0.8rem;
+  color: #555;
+}
+.btnDelete:hover {
+  text-decoration: underline;
+}

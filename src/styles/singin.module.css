@@ -1,0 +1,82 @@
+.singIn {
+  margin-top: 70px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: calc(100vh - 70px);
+}
+
+.containerForm {
+  background: #fff;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px 30px;
+  box-shadow: 0 2px 10px #00000033;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.splitColum {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.formControl {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.formControl input {
+  font-size: 0.9rem;
+  width: 100%;
+  background: #f1f1f1;
+  border: none;
+  padding: 0.5em 1em;
+  color: #444;
+}
+
+.formControl input:focus {
+  outline: 2px solid #777;
+}
+
+.formControl button {
+  font-size: 1rem;
+  width: 100%;
+  padding: 0.7em 1em;
+  background: var(--darkBlue);
+  color: #f1f1f1;
+  border: none;
+}
+
+.errorMessage {
+  margin: 0;
+  text-align: start;
+  font-size: 0.8rem;
+  color: #f00;
+  width: 100%;
+  padding: 5px;
+}
+
+.link {
+  margin-top: 10px;
+  font-size: 0.7rem;
+}
